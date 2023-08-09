@@ -11,7 +11,7 @@ license = "MIT"
 
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 httpx = "^0.24.1"
 fastapi = "^0.101.0"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
