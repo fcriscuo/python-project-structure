@@ -5,6 +5,7 @@ from httpx import Response
 
 # app
 app: FastAPI = FastAPI()
+# comment to test conventionial commits
 
 
 @app.get(path="/{number}", status_code=status.HTTP_200_OK)
